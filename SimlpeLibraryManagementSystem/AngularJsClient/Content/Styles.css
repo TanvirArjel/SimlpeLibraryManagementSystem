@@ -1,0 +1,50 @@
+﻿.header {
+    /*width: 800px;*/
+    height: 80px;
+    text-align: center;
+    background-color: #BDBDBD;
+}
+
+.footer {
+    background-color: #BDBDBD;
+    text-align: center;
+}
+
+.leftMenu {
+    height: 500px;
+    background-color: #D8D8D8;
+    width: 150px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+
+a{
+    display:block;
+    padding:5px
+}
+.memberTable {
+    margin: 0px auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    /*cursor property displays hand symbol 
+        when hovered over the th element*/
+    cursor: pointer;
+}

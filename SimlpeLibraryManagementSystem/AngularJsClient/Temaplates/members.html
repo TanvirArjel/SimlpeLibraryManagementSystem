@@ -1,0 +1,30 @@
+﻿<div class="text-center">
+    <h1>{{pageHeader}}</h1>
+
+    <a href="members/create" class="btn btn-default">Create Members</a>
+
+    <br />
+    <br />
+
+    <table class="memberTable">
+        <thead>
+            <tr>
+                <th>Member Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th colspan="3">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="member in members">
+                <td>{{member.MemberName}}</td>
+                <td>{{member.Age}}</td>
+                <td>{{member.Gender}}</td>
+                <td><a href="members/details/{{member.MemberId}}">Details</a></td>
+                <td><a href="members/edit/{{member.MemberId}}">Edit</a></td>
+                <td><a href="members/delete/{{member.MemberId}}">Delete</a></td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
